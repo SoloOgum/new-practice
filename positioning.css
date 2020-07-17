@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.parent {
+    margin: 0%;
+    height: 70vh;
+    width: 20vw;
+    background-color: blue;
+    position: relative;
+    /* top: 200% */
+
+}
+
+.parent div {
+
+}
+
+/* .child {
+    margin: 0%;
+    height:40vh;
+    width: 10vh;
+    background-color: green;
+    position: absolute;
+    top:15%;
+    left: 15%;
+} */
+
+.parent p {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    left: 12%;
+    margin: 0%
+}
+
+.parent2 {
+
+margin: 0%;
+height: 90vh;
+width: 20vw;
+background-color: teal;
+position: relative;
+/* top: 200% */
+}
+
+.parent2 :first-child {
+    margin: 0%;
+    height:40vh;
+    width: 10vh;
+    background-color: purple;
+    position: absolute;
+    top:15%;
+    left: 15%;
+}
+
+.parent2 :last-child {
+    margin: 0%;
+    height:40vh;
+    width: 10vh;
+    background-color: purple;
+    position: fixed;
+    top: 70%;
+    left: 5%;
+}
+
+.child1 {
+    
+}
